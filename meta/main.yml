@@ -5,10 +5,19 @@ galaxy_info:
   license: MIT
   min_ansible_version: 1.4
   platforms:
-    - name: Ubuntu
+    - name: Amazon
+      versions:
+        - all
+    - name: Centos
       versions:
         - all
     - name: Debian
+      versions:
+        - all
+    - name: Red Hat
+      versions:
+        - all
+    - name: Ubuntu
       versions:
         - all
   categories:
